@@ -83,7 +83,7 @@ class ExercisesClient(APIClient):
 
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
-        Метод удаления курса.
+        Метод удаления задания.
 
         :param exercise_id: Идентификатор задания.
         :return: Ответ от сервера в виде объекта httpx.Response
