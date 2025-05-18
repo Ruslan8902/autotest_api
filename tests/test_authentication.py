@@ -1,11 +1,11 @@
 from http import HTTPStatus
 
-from clients.authentication.authentication_client import get_authentication_client, AuthenticationClient
+import pytest
+
+from clients.authentication.authentication_client import AuthenticationClient
 from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema
-from clients.users.private_users_client import get_private_users_client
-from clients.users.public_users_client import get_public_users_client, PublicUsersClient
-from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
-from tests.conftest import UserFixture
+from clients.users.public_users_client import PublicUsersClient
+from fixtures.users import UserFixture
 from tools.assertions.authentication import assert_login_response
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
