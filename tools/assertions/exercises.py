@@ -105,7 +105,7 @@ def assert_get_exercises_response(
 
         :param get_exercises_response: Ответ API при запросе списка заданий.
         :param create_exercises_response: Список API ответов при создании заданий.
-        :raises AssertionError: Если данные курсов не совпадают.
+        :raises AssertionError: Если данные заданий не совпадают.
         """
     assert_length(get_exercises_response.exercises, create_exercises_response, "exercises")
 
