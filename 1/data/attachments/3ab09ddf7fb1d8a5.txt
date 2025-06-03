@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE1OjU1OjQ1LjM0MDUzNiIsInVzZXJfaWQiOiI1YTMwNmQxOC03YzczLTRiNzItYTcxMS00N2FjODVhNzNlYmQifQ.ld-cnYBG_ov8xWOC9PvuTtZ-KI41SDtKALiP0qDh52w' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"However Republican evidence wind.","maxScore":53,"minScore":20,"description":"Into turn Democrat interest and push. Reveal administration store whom of its.\nYard agree blood both. Various action song nature national.","estimatedTime":"4 weeks","previewFileId":"523a6a8c-1a5a-4ef3-901b-2781951a2243","createdByUserId":"5a306d18-7c73-4b72-a711-47ac85a73ebd"}'

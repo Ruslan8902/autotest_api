@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE1OjU1OjQ2LjUwNjYxOSIsInVzZXJfaWQiOiIwNmM1YmM0OC00MzQ2LTRhMWYtOWM4Mi0xNTc5ZDk1YWEyY2MifQ.0V6yX88CHt1ZoEKNi3R0e4r5-Ji3g0nIEcadefxk5Uk' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Democratic popular now.","maxScore":80,"minScore":25,"description":"Thought early popular market ok chance. Might agency firm else mean look. Page agree here condition necessary.","estimatedTime":"7 weeks","previewFileId":"e591168b-bbf6-4052-8547-b08019e27e74","createdByUserId":"06c5bc48-4346-4a1f-9c82-1579d95aa2cc"}'

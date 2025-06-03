@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE1OjU1OjQ0LjE5OTQ0MyIsInVzZXJfaWQiOiI5MmZlYTkwOC1mYjdlLTQyMTItOWNhYy1kYjU3YzUyOWU4NjgifQ.eXk88qzUu3LsVNr23oieZzw9bP8NYU-kX81uq2F_D4o' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sell couple budget ready finally eat human.","maxScore":91,"minScore":19,"description":"Step computer this experience clearly many a.\nAnswer skill everything report kid long. Rock care soldier push.","estimatedTime":"2 weeks","previewFileId":"c1e5c281-923d-4cfd-bcc9-370755a96e04","createdByUserId":"92fea908-fb7e-4212-9cac-db57c529e868"}'

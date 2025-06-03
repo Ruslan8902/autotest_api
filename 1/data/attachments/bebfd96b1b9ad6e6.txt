@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE1OjU1OjQ4LjY0MjU1MyIsInVzZXJfaWQiOiJmMmFiN2JlOS01N2Q3LTQ3OTItOThiZC1hOTg2YTc2YzU0NzUifQ.z3bfotz7_dKxhy4JRDtgsfmeR3Bk78Hc_pMfRtzIzmc' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ahead us its.","courseId":"ffd7cabf-a7ec-42eb-8456-d73f733a3b57","maxScore":75,"minScore":17,"orderIndex":93,"description":"The machine thus bill director stand. Across picture it until rate. Perform artist business. Cut trouble here.","estimatedTime":"8 weeks"}'

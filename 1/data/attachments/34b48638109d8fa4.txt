@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE1OjU1OjQ3Ljk2Njg5MCIsInVzZXJfaWQiOiIwNDFiMjAxYi0xZGQ4LTRkYjItYmJjYi1kMTMxNzU2MWJlMmQifQ.ruVHlE0oRvNVpkNHyCMtLVlo9O_wvBHTkNW0kEYPDM8' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Read thousand value shake on.","maxScore":88,"minScore":20,"description":"Group laugh television senior. Scene wall gas book.\nProve avoid American. Seat clearly us spring star military stock wind.\nFinal firm fear point old.","estimatedTime":"3 weeks","previewFileId":"0049f7e8-8b1c-450e-8325-f14a3cc93c5b","createdByUserId":"041b201b-1dd8-4db2-bbcb-d1317561be2d"}'

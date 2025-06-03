@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE1OjU1OjQ1LjYxNDM5MCIsInVzZXJfaWQiOiI1NGQwNTA5OC1lN2ViLTQ0ZmItYjE1NC1jYTNlYzBhZTY5ZTUifQ.feGbG-WsB7yEvSSXMi0JBrsjg0-GA-1Pg6PCn-_79Jc' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Specific rather improve door.","maxScore":97,"minScore":28,"description":"Rock close put. Involve health end control truth everybody cup. Issue choose mouth worry.\nHere day rather everybody. Though attention officer try character.","estimatedTime":"7 weeks","previewFileId":"7adf93b1-2b4e-4230-b40c-7eac7bc94cf8","createdByUserId":"54d05098-e7eb-44fb-b154-ca3ec0ae69e5"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:94 Check create course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to However Republican evidence wind.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 53
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Into turn Democrat interest and push. Reveal administration store whom of its.
+Yard agree blood both. Various action song nature national.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:34 Check that "preview_file_id" equals to 523a6a8c-1a5a-4ef3-901b-2781951a2243
+INFO     BASE_ASSERTIONS:base.py:34 Check that "created_by_user_id" equals to 5a306d18-7c73-4b72-a711-47ac85a73ebd
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

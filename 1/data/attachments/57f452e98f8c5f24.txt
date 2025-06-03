@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE1OjU1OjQ4LjY0MjU1MyIsInVzZXJfaWQiOiJmMmFiN2JlOS01N2Q3LTQ3OTItOThiZC1hOTg2YTc2YzU0NzUifQ.z3bfotz7_dKxhy4JRDtgsfmeR3Bk78Hc_pMfRtzIzmc' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Majority evening arm practice really finally.","maxScore":63,"minScore":10,"description":"Executive event generation no growth capital popular. Lot during someone indicate. Report economy world Congress law find.\nEye end should son rule part impact. Fight generation station production.","estimatedTime":"3 weeks","previewFileId":"f73be0a3-6e9f-4f79-8c24-60de37e23561","createdByUserId":"f2ab7be9-57d7-4792-98bd-a986a76c5475"}'

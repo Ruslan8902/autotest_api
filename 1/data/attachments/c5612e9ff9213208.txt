@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE1OjU1OjQ2Ljc4MDczOCIsInVzZXJfaWQiOiJiMTJmNzI4Ni0xOTNjLTRlOGQtODBjMi1iYWU3MzE0ZjdkMWQifQ.vAJapyxIq3mvq__YIfbihmFv8cRfZadxHxjSSgH3oBE' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Human television follow recognize model.","maxScore":89,"minScore":30,"description":"Reflect sense major full. Interview itself low address speech out often.\nCompany law once professor help interest factor. Technology authority fund beat art. Require in audience.","estimatedTime":"6 weeks","previewFileId":"ab292c17-254f-4926-a829-aff272b64ac3","createdByUserId":"b12f7286-193c-4e8d-80c2-bae7314f7d1d"}'
