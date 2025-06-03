@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjAxOjI1LjA1NjkwMCIsInVzZXJfaWQiOiIxZGU5MDQ2NS0yYjc2LTQ0OGEtYmQ4OS0zMjlkNjZhNzkyZmQifQ.sdGP0CqnTqFJ_bQ1UvZraiWCH2U_ehZ8oxUmDdXpkes' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yard beat large ten which college officer.","maxScore":69,"minScore":4,"description":"Audience keep interview arm culture wall. Future opportunity true herself his year them. Accept able else. Man color scene more activity commercial.","estimatedTime":"4 weeks","previewFileId":"5787bab7-2655-47fd-bf05-7c35175ef045","createdByUserId":"1de90465-2b76-448a-bd89-329d66a792fd"}'

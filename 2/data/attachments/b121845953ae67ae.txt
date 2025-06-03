@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjAxOjI2LjQ3OTYwMyIsInVzZXJfaWQiOiJjMTkxNTBkNy1iZmVlLTRmM2UtYmQ2ZC1mNDU5NDNjMmIwMzgifQ.4Fp-CbSkKgpH3Cz9SSTmTucfiLKC37YdqvTuI84qOvo' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evidence direction believe even white particular.","maxScore":65,"minScore":6,"description":"Smile raise set guy entire establish. Figure dinner particularly else. Director also letter within ground.\nManage raise food near fund. Floor pattern drug phone debate center.","estimatedTime":"7 weeks","previewFileId":"9d22e4cb-29b6-44d3-96a0-c27e8c3f8376","createdByUserId":"c19150d7-bfee-4f3e-bd6d-f45943c2b038"}'

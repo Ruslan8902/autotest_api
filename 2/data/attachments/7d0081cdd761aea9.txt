@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjAxOjI4Ljg1MDQyMCIsInVzZXJfaWQiOiI2NDhkNzJjYS01OTBkLTQ5ZmYtYjFhZC1kNGYyMGJkMWUxNjcifQ.hMLpnpN7JBVy94eVHHQWBqHYZCs_SiQAQwpomU5sais' \
+  -H 'content-length: 450' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Show after several race across investment audience day.","maxScore":57,"minScore":29,"description":"Fire performance TV up. Million same cause worry high lay no. Fly mean where.\nVote since each admit full executive how. Drive fund red ball prove identify arm. Simply while identify while bank write.","estimatedTime":"8 weeks","previewFileId":"a1515ae8-e4e4-45b7-93b1-f10507dd1701","createdByUserId":"648d72ca-590d-49ff-b1ad-d4f20bd1e167"}'

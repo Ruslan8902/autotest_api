@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjAxOjI3LjY2MDQ2OCIsInVzZXJfaWQiOiJjMDc3YzM2Mi1iYmFmLTQ1ZGItOGZiMC0xYTZhZTk4YjQ3ODEifQ.CDd-gKNnZRDpH1y22G7LTO41KXNjIyOsdFVzucVHihQ' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Actually benefit ahead policy impact language floor main.","maxScore":70,"minScore":6,"description":"Keep purpose agreement Mrs front group hotel.\nAttention who recently teacher century.","estimatedTime":"1 weeks","previewFileId":"73d59a5c-4172-4870-99e0-86cc3fc07943","createdByUserId":"c077c362-bbaf-45db-8fb0-1a6ae98b4781"}'

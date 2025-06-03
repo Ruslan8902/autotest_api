@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjAxOjI5LjUyMDYyMCIsInVzZXJfaWQiOiIzMmZmYmU1OS1jNjBkLTQzM2UtYTMwNC01YzA2ODJkNGNhZWYifQ.7q1jOdjbHQSNp24YA8-7t-zGe3WgAh8HXYu8uUGZRvs' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Crime media project include start magazine style cause.","maxScore":98,"minScore":27,"description":"Physical create thing continue decision improve. Suggest air something dark unit if provide.\nReason indeed next should. Seven card fight six three onto. Cold cup nearly visit.","estimatedTime":"3 weeks","previewFileId":"a2a721ab-6d43-49d0-942e-051216a457be","createdByUserId":"32ffbe59-c60d-433e-a304-5c0682d4caef"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjAxOjI3LjM4NjYxMSIsInVzZXJfaWQiOiI3YTgxNWZjNy1jOGVjLTQ0Y2MtYmJjZS1hNDZlMzQ4N2Q2YTAifQ.27XDC0ytkPz7Y-Oek_UEaGz-Cr-O6jIe4lkSewHgNrA' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Forget investment arrive join artist serious.","maxScore":80,"minScore":4,"description":"Career number character series later. Trouble raise into every fire husband face trip. By board million lose floor fall.\nSuddenly property either quite total.","estimatedTime":"7 weeks","previewFileId":"fa7fc62b-8c08-4106-8cc6-4b625bac59e0","createdByUserId":"7a815fc7-c8ec-44cc-bbce-a46e3487d6a0"}'

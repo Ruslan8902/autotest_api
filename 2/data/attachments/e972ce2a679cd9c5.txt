@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/99ee7f8d-7ba6-4554-afce-d4eb9bc7417d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjAxOjI2LjQ3OTYwMyIsInVzZXJfaWQiOiJjMTkxNTBkNy1iZmVlLTRmM2UtYmQ2ZC1mNDU5NDNjMmIwMzgifQ.4Fp-CbSkKgpH3Cz9SSTmTucfiLKC37YdqvTuI84qOvo' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"No job indeed case two benefit growth try.","maxScore":77,"minScore":17,"description":"Enjoy director talk. Environmental see system.\nHot tough represent. Sing voice smile rock his. Through bar turn.\nBefore care more. Past investment size economy party bit. Whether quality drug.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjAxOjI4LjU3NjQyOSIsInVzZXJfaWQiOiI4NTU3OWQ3ZS05MDcxLTQ3OTQtOGNjOC1kYmQ0ZmE5MjcwY2EifQ.Qi8Huhbi0eJheY42msVHi8owouDKdMnSfyTRis10gAw' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later fall particular which.","courseId":"7caba6fb-de36-43e9-af65-5c23ac84da12","maxScore":99,"minScore":27,"orderIndex":20,"description":"Local foot nearly note off enjoy choice.\nCollege pressure price break sound great because. Wall service every case school voice newspaper trip.\nCar than quality their beautiful. Thousand music wrong.","estimatedTime":"7 weeks"}'
