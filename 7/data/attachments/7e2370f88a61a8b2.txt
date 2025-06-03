@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjMwOjE5LjM0OTM4OSIsInVzZXJfaWQiOiIxNzVhM2FhMS05YWJiLTRiZDMtOTY0OC0wYjE1NDBiMmFlMjkifQ.t5BLhznLfFuvfsSqzW5bFbS-4CGa9rt0LLlbg_tTMNU' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later foreign campaign man mother day.","maxScore":51,"minScore":24,"description":"Here why tend news power eat. Teacher argue author pattern up simple. Moment water total take fish manager strong.","estimatedTime":"8 weeks","previewFileId":"db3523cf-c08c-4d76-b9f5-d2c9d3f4fa84","createdByUserId":"175a3aa1-9abb-4bd3-9648-0b1540b2ae29"}'

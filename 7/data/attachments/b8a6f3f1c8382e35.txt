@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjMwOjE3LjIxMTcwOCIsInVzZXJfaWQiOiI2ZmZiMjE0OS05YWU1LTQ0YmYtYmYzMC02NTdjYTdlMTY5OWUifQ.gpMyWyKsYGVfIu84oZWkL7GAp2pbX0jypZgatuE-YCo' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Structure fund child garden material attorney campaign.","maxScore":84,"minScore":15,"description":"Learn can star including son road.\nFeel break business analysis realize way sort. Me serve arm media share. Clearly remain trip their protect total.","estimatedTime":"10 weeks","previewFileId":"b4495574-6114-45c9-8d08-e09ef8371320","createdByUserId":"6ffb2149-9ae5-44bf-bf30-657ca7e1699e"}'

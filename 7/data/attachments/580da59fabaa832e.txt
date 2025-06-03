@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjMwOjE4LjM5OTE4NSIsInVzZXJfaWQiOiI4YzQ4MWYyNS1lN2I3LTQyMDgtOWQwNi0yZDJmM2MxNzIwMzIifQ.HpsK_VOJoBFt3Jf9lK7u7cW2gBDgqTKI0aOsDXrUNq0' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner note everybody white boy total early.","maxScore":66,"minScore":2,"description":"On stop tonight for. Community point accept major ever finally choice we. Imagine training somebody build toward above maintain group. When sound similar available brother sometimes.","estimatedTime":"9 weeks","previewFileId":"65516070-0d61-4d40-ae00-a71e6a44a672","createdByUserId":"8c481f25-e7b7-4208-9d06-2d2f3c172032"}'

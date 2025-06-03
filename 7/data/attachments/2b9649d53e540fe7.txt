@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjMwOjE4LjY3Mzg2NyIsInVzZXJfaWQiOiI2MjM3ZDdmNy0xYzFiLTRmNzQtOTJhZC04MmUyZjQ5MDkzNTYifQ.X_Gby0SNYhUhbUtmEnTMZdxU1prshbAvKp_mQ-UWueE' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certain well reach police.","maxScore":71,"minScore":8,"description":"Success name cut road who. Task audience live free type land.\nStaff raise growth you than take and.","estimatedTime":"4 weeks","previewFileId":"db6439cc-56a0-4db9-976f-e683e428c391","createdByUserId":"6237d7f7-1c1b-4f74-92ad-82e2f4909356"}'

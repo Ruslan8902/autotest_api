@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjMwOjE2LjA0MDExMSIsInVzZXJfaWQiOiI1MWMyNDZkMi1mMTVkLTQzNTAtODMzZC02ZTliODliMjNmODMifQ.AOilsQYz5aVA8olW5Ho-5EHtJlBPDFgviStUmbL2-TM' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Build body news some high wall between.","maxScore":91,"minScore":12,"description":"Total argue west dream practice. For life stand north. Large toward late anything.\nDecade person within than building investment just important. Cost only term fly far parent.","estimatedTime":"9 weeks","previewFileId":"40e52ec8-25e1-409c-9249-b36b2885e648","createdByUserId":"51c246d2-f15d-4350-833d-6e9b89b23f83"}'

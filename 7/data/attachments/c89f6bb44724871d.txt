@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ba492eec-a4f0-4559-996e-d23bf6f9f041' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjMwOjE3LjQ4NTg1MSIsInVzZXJfaWQiOiI0MjQ3YjQ2OS01NWQ3LTRmNzYtYjVkYy0wYTdjN2ExOTEwNDQifQ.Y1-LKpHeNzXzYpoY4wbYcRRCaYbaPYmMv_P2DYwuc0o' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sort former ask member.","maxScore":100,"minScore":24,"orderIndex":95,"description":"Radio mention people admit long fact system measure. Body hair point sort huge arm control.\nAgreement picture tonight picture good particular resource. Everybody detail do would either record.","estimatedTime":"6 weeks"}'

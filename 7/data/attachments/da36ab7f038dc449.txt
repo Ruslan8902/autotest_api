@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/0219b78b-ccd4-4d20-a29e-b4689e5c710d
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/0219b78b-ccd4-4d20-a29e-b4689e5c710d
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:24 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that "id" equals to 0219b78b-ccd4-4d20-a29e-b4689e5c710d
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Never send growth next card culture.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to 00bd8457-77e6-4e99-9d63-9ec68830b969
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 91
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 25
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Amount exist join. Kitchen establish real fall message wonder. Difference over black human money thus particular. Operation loss lose hour general return Mr.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

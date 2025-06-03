@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjMwOjE4LjM5OTE4NSIsInVzZXJfaWQiOiI4YzQ4MWYyNS1lN2I3LTQyMDgtOWQwNi0yZDJmM2MxNzIwMzIifQ.HpsK_VOJoBFt3Jf9lK7u7cW2gBDgqTKI0aOsDXrUNq0' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Never send growth next card culture.","courseId":"00bd8457-77e6-4e99-9d63-9ec68830b969","maxScore":91,"minScore":14,"orderIndex":25,"description":"Amount exist join. Kitchen establish real fall message wonder. Difference over black human money thus particular. Operation loss lose hour general return Mr.","estimatedTime":"10 weeks"}'

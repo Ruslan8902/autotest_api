@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjMwOjE0LjkwMTMyMiIsInVzZXJfaWQiOiI3MjhkNjk4ZS1kNjM3LTRlNzktOGU2Yy1iZDIzMjRkMmEyOGIifQ.ErL1PcLObti5pQeuj3ckZGV0Xw7IAm4eYCdXJovwxT0' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Majority minute computer speak share.","maxScore":89,"minScore":8,"description":"Camera worry follow Congress. Involve capital we specific air. Performance sense he skill thousand treat care.","estimatedTime":"7 weeks","previewFileId":"6dc1bde7-4fd8-4f80-b24d-e3f92091ed9c","createdByUserId":"728d698e-d637-4e79-8e6c-bd2324d2a28b"}'
