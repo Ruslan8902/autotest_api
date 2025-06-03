@@ -75,9 +75,6 @@ jobs:
           name: allure-results
           path: ./allure-results
 
-      - name: Display structure of downloaded files
-        run: ls -R
-
       # 9. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
         uses: actions/checkout@v4  # Опять клонируем репозиторий, чтобы получить историю отчётов
