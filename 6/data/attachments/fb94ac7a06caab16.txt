@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjI4OjIyLjA0MTY4NiIsInVzZXJfaWQiOiJjNzc1ZmI0NS0zMTg4LTQ5YWUtYTM2OC0yMThhNjI4NTRjMmIifQ.EVcWA_0XzT5lPHP3G-8KhZBgFzbbqUxxQBJVvuGO_6Q' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Send method information interest spring score easy much.","courseId":"ee172ca0-192b-4983-8ebd-d0e8b8428959","maxScore":86,"minScore":10,"orderIndex":43,"description":"Director still type agreement star scientist Congress sit. Interest race figure. Occur suffer physical.\nClass his recently method letter evidence everything.","estimatedTime":"2 weeks"}'

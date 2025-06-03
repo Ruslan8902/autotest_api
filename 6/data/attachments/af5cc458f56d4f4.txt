@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjI4OjIxLjM2MjQwMCIsInVzZXJfaWQiOiJiNDgzNWY3Zi0xZGEwLTRhZmQtODM4YS01ZmUxYmNiY2YxYTcifQ.cWPjohj2V2GqGIchSc7Erg41Z9PVePKkkvxap6-xxuM' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Even true sing room heavy choice seem.","maxScore":88,"minScore":7,"description":"Head customer arm actually. Stage son fire general magazine newspaper. Compare bar positive response reason.","estimatedTime":"6 weeks","previewFileId":"b02d9a5b-c910-40a9-9077-f9e20a38adcf","createdByUserId":"b4835f7f-1da0-4afd-838a-5fe1bcbcf1a7"}'

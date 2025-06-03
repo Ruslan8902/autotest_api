@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjI4OjE4Ljk4NjA5OCIsInVzZXJfaWQiOiJiNGZiYzU2MS1hYTI0LTQxZDYtOWI5MC0zNWVjOTUwMzFkYTUifQ.HJUzCVUqN6kQB_KfIjmQJEwcyOk9HKa2Y2lvgw9knU0' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Near outside window send west road.","maxScore":84,"minScore":10,"description":"Thought wonder during buy.\nThrow hope onto himself else want value. Sound same five authority. Where though despite nothing only above she.","estimatedTime":"5 weeks","previewFileId":"e8e8275e-54fc-4389-9c59-dff9aefec3d9","createdByUserId":"b4fbc561-aa24-41d6-9b90-35ec95031da5"}'

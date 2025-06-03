@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjI4OjE5LjkwMTI2NiIsInVzZXJfaWQiOiJmOGM5NWIzOS1kMjYzLTRmNjctOTU4Yi00MzY3ZDMyYzE1MjcifQ.fxh0WAuh1hNApPKc6EqtUXKKD3eDKfpusspoU4OM6GM' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pick go with never five kitchen one decision.","maxScore":68,"minScore":21,"description":"Structure along expert theory. Call visit resource piece debate. Poor thing early move second turn from gas.","estimatedTime":"10 weeks","previewFileId":"3dbde0bc-9630-4f6a-8517-dbffc69dd79f","createdByUserId":"f8c95b39-d263-4f67-958b-4367d32c1527"}'

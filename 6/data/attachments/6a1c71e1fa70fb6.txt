@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/325c4c10-583e-4561-baf6-694ecd756d72' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjI4OjE4Ljk4NjA5OCIsInVzZXJfaWQiOiJiNGZiYzU2MS1hYTI0LTQxZDYtOWI5MC0zNWVjOTUwMzFkYTUifQ.HJUzCVUqN6kQB_KfIjmQJEwcyOk9HKa2Y2lvgw9knU0' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exactly pass modern week.","maxScore":55,"minScore":5,"description":"Similar participant skill accept. Chance analysis these easy catch. Challenge amount claim member song call clear.\nElse example financial power black. Itself onto task future national long.","estimatedTime":"6 weeks"}'

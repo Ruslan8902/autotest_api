@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjI4OjE4LjcwODE3NSIsInVzZXJfaWQiOiIwN2Y1Y2QwNi00OWU3LTQyYzgtOWVkNi1mNWM5NDBkOTg3MTEifQ.gI8R_60yR4LtufU_bqA7h_ayb5_P5J4LtOOhLRBifag' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"After there very fact former position call relationship.","maxScore":84,"minScore":27,"description":"Loss have small. Key certainly important suggest individual phone from. Newspaper herself bed person future national.","estimatedTime":"4 weeks","previewFileId":"c82223b0-1b00-441f-8563-d7689a1dff22","createdByUserId":"07f5cd06-49e7-42c8-9ed6-f5c940d98711"}'

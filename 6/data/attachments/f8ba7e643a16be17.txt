@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjI4OjIxLjA4ODU0NiIsInVzZXJfaWQiOiI3YzcyMzQzMy05ODJlLTRkNjAtOTVkNy01ZDU3MjI3NjVmY2UifQ.oIdhWUJL2aSfv0IgpvE60WOvKn04KeLWODaDgpT9TRY' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Activity daughter plant inside happen often.","maxScore":66,"minScore":14,"description":"Nation room reach. Arrive degree event forward.\nAddress stuff miss he. Money involve president still action.","estimatedTime":"8 weeks","previewFileId":"98381437-da2f-4571-bf24-83707c8df7ba","createdByUserId":"7c723433-982e-4d60-95d7-5d5722765fce"}'

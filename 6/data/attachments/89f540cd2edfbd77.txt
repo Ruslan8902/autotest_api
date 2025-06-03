@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjI4OjIyLjA0MTY4NiIsInVzZXJfaWQiOiJjNzc1ZmI0NS0zMTg4LTQ5YWUtYTM2OC0yMThhNjI4NTRjMmIifQ.EVcWA_0XzT5lPHP3G-8KhZBgFzbbqUxxQBJVvuGO_6Q' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Carry fine we security expect treatment particularly.","maxScore":99,"minScore":19,"description":"Green event short threat word trial executive. Season finally friend capital address approach back. Hundred move serve general edge people animal.","estimatedTime":"9 weeks","previewFileId":"d58ebe1b-1682-499c-bbb7-c9ab337875f2","createdByUserId":"c775fb45-3188-49ae-a368-218a62854c2b"}'
