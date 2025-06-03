@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjIyOjMzLjIzOTM0MCIsInVzZXJfaWQiOiI1MGRjNGUzNC00ZjAzLTQxYjctYjAxMC1jNWI5MjE0ZjJmM2MifQ.22nsTJiYjuP7gGyanLvo0kGHNuBNRYN9L1AiOLWbYkk' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Religious effect wish type.","maxScore":56,"minScore":18,"description":"Share community suddenly kid lead pass American. Opportunity ever husband Congress office know.","estimatedTime":"5 weeks","previewFileId":"f35d7b68-dcad-4b57-8933-6de2abb346e2","createdByUserId":"50dc4e34-4f03-41b7-b010-c5b9214f2f3c"}'

@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:58 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Member century need week team gun order.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to 235530cd-29c3-48fd-8b4c-0352ca5abc05
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 81
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 24
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Author tax including before on meet. Reality across than maintain most century fall. Modern life various need goal.
+Skill officer energy. Here only least participant social compare.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

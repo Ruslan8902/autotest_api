@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjIyOjM2LjI4MDI5MyIsInVzZXJfaWQiOiI2Mzk2MmJmYy04NjRmLTQwZDEtODRkNy05YWYxZjg4OGM5ZmMifQ.2zfmrFF89fdbNxpO9MYnsdq1nOnE2j6VknhBUvmtoEk' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worry discuss discussion.","courseId":"6a293f06-9d1e-4272-802d-8a719fee7be6","maxScore":92,"minScore":15,"orderIndex":49,"description":"Baby easy specific look huge whole win. Past notice for new property.\nElse million pull series. City million north. Offer dinner participant rest deep population.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjIyOjM0LjQyMTcwMCIsInVzZXJfaWQiOiIxZjVhY2NkZi0zZDE1LTRiNjQtYWFhZC1hZTZjODFjODc4YjMifQ.GrWriiLC7p_whervpLr6cMegcyLIuMnb8rkbeMDqR10' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Paper picture race.","maxScore":86,"minScore":20,"description":"Name success college key agent. Us oil born. Star process less art him but week.\nPeople improve only. Friend anyone picture because key something.","estimatedTime":"7 weeks","previewFileId":"3fcdc7e7-e8f4-4ee1-8a95-fc054fdd7e2d","createdByUserId":"1f5accdf-3d15-4b64-aaad-ae6c81c878b3"}'

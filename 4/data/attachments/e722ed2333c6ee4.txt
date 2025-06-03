@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjIyOjM0LjQyMTcwMCIsInVzZXJfaWQiOiIxZjVhY2NkZi0zZDE1LTRiNjQtYWFhZC1hZTZjODFjODc4YjMifQ.GrWriiLC7p_whervpLr6cMegcyLIuMnb8rkbeMDqR10' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dinner positive song American.","courseId":"afbbcc8e-a54a-46db-ad16-9d21a2a7e1d7","maxScore":73,"minScore":30,"orderIndex":30,"description":"Child couple left walk true here. Such arm during full especially.\nHundred beyond bit general. Who research other assume.\nClear performance radio. Onto travel foot call foot current.","estimatedTime":"1 weeks"}'

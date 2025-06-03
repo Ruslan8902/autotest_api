@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjIyOjM2LjI4MDI5MyIsInVzZXJfaWQiOiI2Mzk2MmJmYy04NjRmLTQwZDEtODRkNy05YWYxZjg4OGM5ZmMifQ.2zfmrFF89fdbNxpO9MYnsdq1nOnE2j6VknhBUvmtoEk' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relationship ball wonder me see contain.","maxScore":86,"minScore":25,"description":"Agreement six allow system create author. Yet step sing serious choose.\nQuite smile movie. Decade likely hope close community. Key today point.","estimatedTime":"8 weeks","previewFileId":"05bcb7f5-1167-49ee-827b-decf74fb2b08","createdByUserId":"63962bfc-864f-40d1-84d7-9af1f888c9fc"}'

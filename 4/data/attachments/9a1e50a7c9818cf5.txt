@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjIyOjM1LjAwNzIyOCIsInVzZXJfaWQiOiJjN2IzZThhMS0wYzY4LTQ0NGItYjMxYS03M2FkNTE5YmVmNWUifQ.bKq4xH72Ls9qFriZM8C6mGEL3V8XDaIcPcGhi2JZhVs' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prove city suffer admit foreign.","maxScore":83,"minScore":17,"description":"Enjoy check single lawyer create. Growth day care alone marriage by.","estimatedTime":"9 weeks","previewFileId":"8b8ba4f2-e172-4e6f-bd74-a963f97fae91","createdByUserId":"c7b3e8a1-0c68-444b-b31a-73ad519bef5e"}'

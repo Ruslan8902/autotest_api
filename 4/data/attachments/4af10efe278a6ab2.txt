@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjIyOjMyLjY1NjA2MyIsInVzZXJfaWQiOiI0MGJlY2FlZi02MDdjLTQ2N2YtOTcwOS1hNjdiZDRiZTIwN2MifQ.PVKwaZQIrZOX1B6fGcmNoqmTq5KVp7VA1njDQDjycC8' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Watch white else sense market.","maxScore":71,"minScore":5,"description":"Bag reality adult indicate. Heavy chair far identify garden same. Good peace their decide.","estimatedTime":"5 weeks","previewFileId":"1cfdbd2b-8140-4028-b8d0-bb22349cdb87","createdByUserId":"40becaef-607c-467f-9709-a67bd4be207c"}'

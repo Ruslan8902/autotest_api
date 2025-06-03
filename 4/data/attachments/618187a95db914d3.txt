@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTAzVDE2OjIyOjMzLjgzMzgzMiIsInVzZXJfaWQiOiIzNTA4NjcxOC0xZDAwLTQ0MDgtOTFjMS01ZDcxM2Y0NTQ4MzUifQ.IgK1bTvZLPTCFy05YcBMHrWfnoMHeFrJLkCJ8ZP7gyU' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Weight country value church method purpose.","maxScore":91,"minScore":22,"description":"Rest follow position with. Case fine federal. Specific it final. If middle size action coach power industry.\nControl pick table second project father. Deal onto life.","estimatedTime":"1 weeks","previewFileId":"6ffde794-40a3-4a83-92aa-4d26cb88ff44","createdByUserId":"35086718-1d00-4408-91c1-5d713f454835"}'
