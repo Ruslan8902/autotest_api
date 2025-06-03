@@ -73,6 +73,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: allure-results
+          path: ./allure-results
 
       - name: Display structure of downloaded files
         run: ls -R
