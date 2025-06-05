@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI3OjE1LjcwMTIyNyIsInVzZXJfaWQiOiI2MGE0N2UzNy1kZjVhLTRlNjktYTc4Mi0wOGUyMjhhMzM3MDYifQ.mRNoVWA0hC1_aMxzfjVDW2RvSyhK2CsklUQl5MveCTU' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agent Republican successful again our no no.","maxScore":58,"minScore":6,"description":"Gas phone include physical morning. Nature claim front outside project bad either. Program detail service artist through.","estimatedTime":"7 weeks","previewFileId":"11dea8ea-5c41-44f1-8489-453191c3bd41","createdByUserId":"60a47e37-df5a-4e69-a782-08e228a33706"}'

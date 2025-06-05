@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI3OjE2LjMxNTk3MyIsInVzZXJfaWQiOiI5NTBkM2Q0Yi00YWM5LTQ3MDEtYTYyMC05MzY2YWY2YWNlYWYifQ.D2BnRS7b51ukP36M2MqxVhLAoZ5q7ki-NUfkGSEK6FY' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"There act share coach yard their.","maxScore":67,"minScore":19,"description":"Difference total ahead single reality. Maintain building soldier seem city can.\nAuthor history while move upon within college writer. Choice possible interesting election skin leg modern.","estimatedTime":"4 weeks","previewFileId":"30b82224-9d2a-437a-85be-d301a75602b7","createdByUserId":"950d3d4b-4ac9-4701-a620-9366af6aceaf"}'

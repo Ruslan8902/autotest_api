@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI3OjEyLjA3NTc0NiIsInVzZXJfaWQiOiJiZWVkZWQ4ZS03ZDY0LTQ5NGYtOTAzZC0yMWI0NjljYTBkNjEifQ.KLl0Os6dj6CZphMKsmZjJ2ZK78RsdPRIhyKFsAuEbZI' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Style leave father into important season.","maxScore":87,"minScore":17,"description":"Church agreement plan western environmental. Company education bill war out.\nHot use middle network may machine. Off both well. Prepare because pull any area build.","estimatedTime":"10 weeks","previewFileId":"6e6bdde9-edaa-4b02-8208-2454a205eebf","createdByUserId":"beeded8e-7d64-494f-903d-21b469ca0d61"}'

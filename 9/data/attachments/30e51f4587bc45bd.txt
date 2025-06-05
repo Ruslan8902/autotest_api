@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI3OjE1LjA2MjYzNCIsInVzZXJfaWQiOiI5OTZhMTk3ZC01NDNmLTQ5ZGItYTlkNy00NjE0ZTFhNzUyMzkifQ.iyxJ-R6xXMVdd-hsCOx6ag0h0JJWNQQSmwlDYOOYmsQ' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soldier result among whose his civil then.","maxScore":68,"minScore":12,"description":"First risk evidence leader old success page. Less detail statement mention treatment although. See now end radio.","estimatedTime":"1 weeks","previewFileId":"d6926408-5925-472c-b044-3995f7ffc150","createdByUserId":"996a197d-543f-49db-a9d7-4614e1a75239"}'

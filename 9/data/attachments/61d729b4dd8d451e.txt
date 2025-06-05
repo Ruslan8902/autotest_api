@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI3OjEzLjI1Mjk0NiIsInVzZXJfaWQiOiJhYmRjMDE2Mi01NzI2LTRiNTMtYTdhMC1iYTVlNGVlYmFlMGQifQ.VRgVEOdpE7rdgQa8XYKYN43bkUiqtT_I3L9ykZAB3YA' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Little exactly back population control long.","maxScore":69,"minScore":23,"description":"Ability color where say court here.\nTown however show them. Rate old her seven once similar peace skill. Single series his visit painting government.","estimatedTime":"3 weeks","previewFileId":"e043612e-141c-489c-a315-8f3b7a9d40b7","createdByUserId":"abdc0162-5726-4b53-a7a0-ba5e4eebae0d"}'

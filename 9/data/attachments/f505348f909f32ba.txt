@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI3OjEyLjY3MTI2MiIsInVzZXJfaWQiOiIyOGVjMTRjOS1mZDQ3LTRmNmYtYWU3My0yYjQ3NzdhZjJiNGIifQ.-HKpfhDb_fc_aKtAKRi-aG_QxPRu_Og8PQ18MqSZ7DI' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Class beautiful skin yet.","maxScore":55,"minScore":12,"description":"Decide real along far. Traditional on table compare carry about. Mind student new data east between same.\nDevelop pretty reach house moment run size.","estimatedTime":"3 weeks","previewFileId":"8050193a-3750-486e-9899-38aea5ffaaf7","createdByUserId":"28ec14c9-fd47-4f6f-ae73-2b4777af2b4b"}'

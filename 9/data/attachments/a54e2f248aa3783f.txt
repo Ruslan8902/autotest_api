@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:58 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:34 Check that "title" equals to Race treatment send now music bit.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "course_id" equals to d294f8fc-c3c1-43a2-9b04-b240e74b057a
+INFO     BASE_ASSERTIONS:base.py:34 Check that "max_score" equals to 74
+INFO     BASE_ASSERTIONS:base.py:34 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:34 Check that "order_index" equals to 41
+INFO     BASE_ASSERTIONS:base.py:34 Check that "description" equals to Reason society half person recognize between. Some here may.
+Behind care instead in should. Goal shoulder during evening coach say teacher.
+INFO     BASE_ASSERTIONS:base.py:34 Check that "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema
