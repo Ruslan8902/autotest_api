@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI0OjQ5LjY5MzU1MSIsInVzZXJfaWQiOiI0NmZhODI3ZC1hYTNmLTRhMTQtYTFlMi1iZDAwMGY5ZGEyODkifQ.muVCdLty94tgb7ornp60Ih1U5YT9mvwk2ITapzAKcHU' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Together matter decide author.","maxScore":74,"minScore":11,"description":"Billion admit west. Suggest these not receive benefit. Fire front unit produce subject pattern.","estimatedTime":"3 weeks","previewFileId":"0c4b1764-ce45-4852-900b-2d3b78acd251","createdByUserId":"46fa827d-aa3f-4a14-a1e2-bd000f9da289"}'

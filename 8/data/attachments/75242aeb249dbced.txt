@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI0OjUwLjg2ODk5OSIsInVzZXJfaWQiOiJjNjI1ZGMyMi1jMGY4LTRkN2EtYTM4ZC0wZmYzNTQ3OGEzZjAifQ.OFyMcevSoVjdevRYbytp13gIYMkYcwNzJnBmwVWHKfA' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professor probably station chance me.","maxScore":54,"minScore":10,"description":"Success debate service person power toward performance then. Game culture across.\nEnergy television day see this news. Ten PM require into. Star walk our defense.","estimatedTime":"7 weeks","previewFileId":"abc84eee-5a00-45ed-bb6e-67783ce73451","createdByUserId":"c625dc22-c0f8-4d7a-a38d-0ff35478a3f0"}'

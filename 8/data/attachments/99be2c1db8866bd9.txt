@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI0OjUyLjYyMzc5NiIsInVzZXJfaWQiOiI1ZWM1ODdmNS1hY2ZjLTQwZTgtODJjNy0zZTJjNjFiYTBkMTgifQ.LMpABVRiMgK8pjXtlr9v7lt435gcayQNlWsLtT5cfRA' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Artist at low perhaps matter produce.","maxScore":89,"minScore":23,"description":"Suddenly know the citizen. Congress effort resource remember moment effect. Culture Mr what peace.","estimatedTime":"4 weeks","previewFileId":"937f35b4-1193-46a3-9070-54b5e368b00f","createdByUserId":"5ec587f5-acfc-40e8-82c7-3e2c61ba0d18"}'

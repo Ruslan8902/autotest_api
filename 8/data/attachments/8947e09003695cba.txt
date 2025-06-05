@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI0OjUwLjI4NjA4OSIsInVzZXJfaWQiOiI0YjJkMTEwMS0xOTkyLTQxMjUtYWVjOC1jYjYwM2NjMmI0Y2EifQ.GDNTyJlwVIuAdk21TpPuPmUV0mdwQMk93OyNSmPKYkM' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"With receive land lay floor.","maxScore":77,"minScore":15,"description":"Him these American even environment fast. Sea worry special go management room claim.\nWater poor quickly nearly. Ever bad once process beautiful necessary baby.","estimatedTime":"4 weeks","previewFileId":"807f6d58-6707-4308-a405-5a616d3011c8","createdByUserId":"4b2d1101-1992-4125-aec8-cb603cc2b4ca"}'

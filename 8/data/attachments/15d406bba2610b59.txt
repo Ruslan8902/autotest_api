@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI0OjUzLjg2ODkxMyIsInVzZXJfaWQiOiI5YjU2NzRlMS04ZDgyLTQ3MTItOWViMy02Nzc2M2M4Yjk3N2MifQ.Zhsi3KsxhYhG3qeKrC2EFrmrb_W8o3uajnpoHGxM4fY' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Card official summer.","maxScore":98,"minScore":28,"description":"Along itself party newspaper list. Wife affect next movie change senior. Movement radio talk son role.\nSpend Mr customer modern stock last such. Third trade both.","estimatedTime":"4 weeks","previewFileId":"0589287f-37f8-4562-aacb-89c09e815722","createdByUserId":"9b5674e1-8d82-4712-9eb3-67763c8b977c"}'

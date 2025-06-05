@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/26778992-76c9-4911-8a38-588968357e01' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI0OjUwLjg2ODk5OSIsInVzZXJfaWQiOiJjNjI1ZGMyMi1jMGY4LTRkN2EtYTM4ZC0wZmYzNTQ3OGEzZjAifQ.OFyMcevSoVjdevRYbytp13gIYMkYcwNzJnBmwVWHKfA' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Brother property fine party.","maxScore":91,"minScore":16,"description":"Represent response piece nice quite. Challenge policy fear outside world wonder yes.\nTonight manager before nor present out laugh. Serve yeah build indicate figure institution power.","estimatedTime":"5 weeks"}'

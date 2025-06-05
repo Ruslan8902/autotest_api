@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA1VDE3OjI0OjUzLjI1OTQwMyIsInVzZXJfaWQiOiIxMjkzOWUzZi1kNmNlLTQ3NmUtYWM3NC01OGE5ZjFlMzcxOTQifQ.CvzLjR0q-u4aDAXI9nk4qtdYs2uomYLt2mbfX3n3VrQ' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Which them no girl indicate indicate senior.","maxScore":91,"minScore":7,"description":"Matter full rock rate conference. Born suffer spring assume.\nExpert lay box win itself sign agent. Approach across police wall room. Sense blood him night nice accept.","estimatedTime":"7 weeks","previewFileId":"a2ab2619-4642-42ce-93e4-031caeef748c","createdByUserId":"12939e3f-d6ce-476e-ac74-58a9f1e37194"}'
