@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4f86f606-5156-4324-9f48-b01c8474f249' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDE3OjQ0OjU2Ljg2MDQ1MCIsInVzZXJfaWQiOiJlODNhMjQ1MS02ZjJhLTRiNDQtYWVlOS0zZDNiYWRhMmZkNjUifQ.kMKgMm0Nc31KSU-DsCmeWOK5xz2GkD03pPwXnvfqamw' \
+  -H 'content-length: 248' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip huge protect visit.","maxScore":96,"minScore":11,"description":"Radio police player develop describe. Paper yes sort lead rule. Everyone time explain whatever wear. Between try various firm possible since.","estimatedTime":"7 weeks"}'

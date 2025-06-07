@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDE3OjQ0OjU5LjI0NDUyNiIsInVzZXJfaWQiOiI5YzZiZTY2Zi00YjJhLTRjOGEtOTgxOC04MzRjMDg3ZmQ0MDQifQ.UfvSZUf_pn3Q1BB19OIqFJlE4k5UC4Kuug2T_-gWVmY' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Off ago interview media left.","maxScore":63,"minScore":20,"description":"Whatever participant performance action listen inside role fact. Summer perhaps someone growth similar sing face. Bag area city country north join.","estimatedTime":"8 weeks","previewFileId":"41139186-79d9-40b1-8b60-37500d1a6be9","createdByUserId":"9c6be66f-4b2a-4c8a-9818-834c087fd404"}'

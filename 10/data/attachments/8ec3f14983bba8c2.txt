@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDE3OjQ0OjU4LjYxMTQzOCIsInVzZXJfaWQiOiJjMWVlYWFmMS02N2QyLTQxN2ItYWQ4Ni01ZWFiNmE3Yjc2Y2UifQ.FXcR62HOacrOb8tfCfCE0KGbrHyRVMM39cSoMxJEIco' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Field wall media growth bill last choice.","maxScore":65,"minScore":30,"description":"Indeed into PM into. Play start meeting understand open sound between create. Through wife computer beat.","estimatedTime":"1 weeks","previewFileId":"007a437e-4ea8-4d4e-87f8-1a37c6a6e6c9","createdByUserId":"c1eeaaf1-67d2-417b-ad86-5eab6a7b76ce"}'

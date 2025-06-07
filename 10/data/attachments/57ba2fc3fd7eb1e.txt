@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDE3OjQ0OjU5Ljg0NDcwNCIsInVzZXJfaWQiOiJlYzNjY2E4Yi0yMzFhLTQyZWItODYyZS02ZGU3NTcyZmQyYzQifQ.tygaAbY4awjhjlxsyiOH91yCoQ7kElbCMhfY0b9r13M' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Great fire raise program member.","maxScore":74,"minScore":24,"description":"Sense keep sport pattern sound process very. Recent something good beat phone partner set. Head role contain machine or.\nNetwork something house personal alone. Work drop medical star new.","estimatedTime":"6 weeks","previewFileId":"3d7f475c-ae93-4b16-98d9-6b5662bd1e7b","createdByUserId":"ec3cca8b-231a-42eb-862e-6de7572fd2c4"}'

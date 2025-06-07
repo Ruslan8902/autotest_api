@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDE3OjQ0OjU2Ljg2MDQ1MCIsInVzZXJfaWQiOiJlODNhMjQ1MS02ZjJhLTRiNDQtYWVlOS0zZDNiYWRhMmZkNjUifQ.kMKgMm0Nc31KSU-DsCmeWOK5xz2GkD03pPwXnvfqamw' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Form billion really similar happen.","maxScore":83,"minScore":10,"description":"Sort dark network. Particularly experience finish thus prepare. Address year east difference sister.\nOf industry figure approach enter task. Hope result well bed assume.","estimatedTime":"5 weeks","previewFileId":"4d764af5-7c22-44d3-9f9a-6038696ce5a9","createdByUserId":"e83a2451-6f2a-4b44-aee9-3d3bada2fd65"}'

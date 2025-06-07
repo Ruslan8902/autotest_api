@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDE3OjQ0OjU1LjM4Njk0MCIsInVzZXJfaWQiOiIwYjZkMWQwMC1hYmRmLTRjZjUtOTJiOS02MmE0NTUxMGY1MmMifQ.b4LAxz4hEo8h4v_mNqCx4Oxq9JPPG9uh4PdkLBkH0ow' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Section cut our despite.","maxScore":59,"minScore":15,"description":"Physical between still place onto. Positive relationship front.\nDiscuss save available your phone. Opportunity like effect whole hair manage.\nTo happy offer offer practice enter.","estimatedTime":"7 weeks","previewFileId":"7c3de998-2e7b-4981-a26a-06dbf9585a99","createdByUserId":"0b6d1d00-abdf-4cf5-92b9-62a45510f52c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDE3OjQ0OjU3LjQ0NDQ1MCIsInVzZXJfaWQiOiIwMjczZjhjYy1hN2U0LTRhYzEtOGE4NC0yMTIzOTllYzMyOWUifQ.1ByWdOHtzy31d4UFITad3fQGExlnKQ0bAwHHq7RCek4' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor decision yet history our notice.","maxScore":72,"minScore":25,"description":"Catch short seem talk push assume final blood.\nModel dark arm purpose who one. Phone feeling wish.\nFederal nation section why. Garden set son. Idea even experience. Picture church car change perhaps.","estimatedTime":"9 weeks","previewFileId":"a794c4d3-ed6c-4850-98da-aa1d0618edd1","createdByUserId":"0273f8cc-a7e4-4ac1-8a84-212399ec329e"}'

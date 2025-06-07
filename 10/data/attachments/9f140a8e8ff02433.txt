@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDE3OjQ0OjU3LjQ0NDQ1MCIsInVzZXJfaWQiOiIwMjczZjhjYy1hN2U0LTRhYzEtOGE4NC0yMTIzOTllYzMyOWUifQ.1ByWdOHtzy31d4UFITad3fQGExlnKQ0bAwHHq7RCek4' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trade same there first science poor.","courseId":"17c29f22-7792-4a9c-a96e-0e5b7b122a93","maxScore":69,"minScore":2,"orderIndex":87,"description":"Husband turn third claim director she. Member a so manage. Center season black never.\nHouse reach political campaign city partner they various. Five think movie call size.","estimatedTime":"3 weeks"}'

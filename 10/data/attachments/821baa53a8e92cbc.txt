@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDE3OjQ0OjU2LjI3NTY5NiIsInVzZXJfaWQiOiI3NzgyZDgwZC03ZWM1LTQ5ZWItOWIxNi00YzkzMTIyNTIyZmUifQ.1kLyusFMirKHCgMphjCEKSoj8vAgpRdmNjGMTvJiT5M' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Event decision data old determine pretty myself.","maxScore":95,"minScore":9,"description":"Concern visit approach scientist word executive force. Most happy seem face vote less democratic.","estimatedTime":"7 weeks","previewFileId":"e465be89-9d11-410d-b33e-9faa0f59a32b","createdByUserId":"7782d80d-7ec5-49eb-9b16-4c93122522fe"}'

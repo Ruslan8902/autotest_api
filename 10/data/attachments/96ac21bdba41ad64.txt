@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA2LTA3VDE3OjQ0OjU4LjAzMjUwNCIsInVzZXJfaWQiOiI4NmMwMDI4Yi0wMWZkLTRjOGEtOGI1Yy04MDYzMjI4NTE0MmYifQ.1MZduMFaEebx-wNUz276fWdYYlOdo0QbAI8UcQBD4q8' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Piece behind shake education range include provide.","maxScore":70,"minScore":2,"description":"Road including opportunity ask write national edge. Until result until.\nControl wait rule offer after beyond. Environment certainly thank sort end process view head.","estimatedTime":"9 weeks","previewFileId":"906cf67c-727a-4de6-9f71-a74d12d9065a","createdByUserId":"86c0028b-01fd-4c8a-8b5c-80632285142f"}'
